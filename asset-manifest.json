@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/react-tasky/static/css/main.51c7c18a.css",
-    "main.js": "/react-tasky/static/js/main.f61a1b49.js",
+    "main.css": "/react-tasky/static/css/main.919d7dcf.css",
+    "main.js": "/react-tasky/static/js/main.9e00453a.js",
     "static/js/453.5095ba51.chunk.js": "/react-tasky/static/js/453.5095ba51.chunk.js",
     "index.html": "/react-tasky/index.html",
-    "main.51c7c18a.css.map": "/react-tasky/static/css/main.51c7c18a.css.map",
-    "main.f61a1b49.js.map": "/react-tasky/static/js/main.f61a1b49.js.map",
+    "main.919d7dcf.css.map": "/react-tasky/static/css/main.919d7dcf.css.map",
+    "main.9e00453a.js.map": "/react-tasky/static/js/main.9e00453a.js.map",
     "453.5095ba51.chunk.js.map": "/react-tasky/static/js/453.5095ba51.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.51c7c18a.css",
-    "static/js/main.f61a1b49.js"
+    "static/css/main.919d7dcf.css",
+    "static/js/main.9e00453a.js"
   ]
 }
