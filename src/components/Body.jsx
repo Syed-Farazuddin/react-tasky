@@ -46,10 +46,10 @@ function Body({ listItems, setListItems }) {
 
   const date = new Date();
   return (
-    <div className="flex justify-center items-center mt-10 gap-10 font-serif">
+    <div className="flex justify-center items-center mt-10 mobile:p-5 tab:p-0 tab:gap-10 font-serif">
       <div className="flex bg-sky-200 p-6 gap-4 items-start justify-start w-[450px] flex-col rounded-md ">
         <div className=" flex gap-5 justify-between w-full items-center">
-          <h1 className="font-bold capitalize ml-5 text-xl text-sky-900">
+          <h1 className="font-bold capitalize tab:ml-5 tab:text-xl mobile:ml-2 mobile:text-lg text-sky-900">
             {date.toLocaleDateString("en-us", {
               month: "long",
               day: "numeric",
@@ -78,6 +78,7 @@ function Body({ listItems, setListItems }) {
               ADD
             </button>
           </div>
+
           {listItems.length > 0 ? (
             listItems.map((item, index) => (
               <div
@@ -120,7 +121,7 @@ function Body({ listItems, setListItems }) {
               </div>
             ))
           ) : (
-            <div className="flex justify-center bg-white rounded-lg m-1 gap-1  items-center border-b-2 border-sky-300 p-2 w-full">
+            <div className="flex justify-center bg-white rounded-lg m-1 gap-1  items-center border-b-2 border-sky-300 mobile:p-1 tab:p-2 w-full">
               <h1 className="text-sky-800 text-center">
                 Your list is Empty! Add Items and start working.
               </h1>
@@ -128,6 +129,7 @@ function Body({ listItems, setListItems }) {
           )}
         </div>
       </div>
+
       <ToastContainer />
     </div>
   );
